@@ -1,0 +1,32 @@
+#ifdef STEP6_0
+#define fc_z  4000.0
+#define fc_xy 2000.0
+#endif
+#ifdef STEP6_1
+#define fc_z 2000.0
+#define fc_xy 2000.0
+#endif
+#ifdef STEP6_2
+#define fc_z 1000.0
+#define fc_xy 1000.0
+#endif
+#ifdef STEP6_3
+#define fc_z 500.0
+#define fc_xy 500.0
+#endif
+#ifdef STEP6_4
+#define fc_z 200.0
+#define fc_xy 200.0
+#endif
+#ifdef STEP6_5
+#define fc_z 100.0
+#define fc_xy 50.0
+#endif
+#ifdef STEP6_6
+#define fc_z 0.0
+#define fc_xy 0.0
+#endif
+
+[ position_restraints ]
+    53     1    fc_xy    fc_xy    fc_z
+    45     1    fc_xy    fc_xy    fc_z
